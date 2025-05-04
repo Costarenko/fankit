@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Category 1</h1>
+        <p>Photos from Event 1</p>
+        <p><a href="index.html" style="color: #fff;">Back to Homepage</a></p>
+    </header>
+    <main>
+        <ul>
+            <li><a href="https://drive.google.com/file/d/FILE_ID_1/view">File 1</a> - Description of File 1</li>
+            <li><a href="https://drive.google.com/file/d/FILE_ID_2/view">File 2</a> - Description of File 2</li>
+            <li><a href="https://drive.google.com/file/d/FILE_ID_3/view">File 3</a> - Description of File 3</li>
+            <!-- Add more files as needed -->
+        </ul>
+    </main>
+</body>
+</html>
